@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+/* eslint-disable no-undef */
+/* eslint-disable react/jsx-no-undef */
+
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+   <div>
+      <h1>
+        Counter increase and decrement
+      </h1>
+      <p> {value}</p>
+      
+      <button className='btn' onClick={()=> setValue(value +1)}> increase </button>
+      <button className='btn' onClick={()=> setValue(value -1)}> decrease </button>
+      <button className='btn' onClick={()=> setValue(0)}> Reset </button>
     </div>
+   
+   
   );
 }
 

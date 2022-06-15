@@ -5,6 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: blueviolet;
+  text-align: center;
+  text-decoration-color: aliceblue;
+}
+h1
+{
+  font-size: large;
+  font-weight: 200;
 }
 
 code {
